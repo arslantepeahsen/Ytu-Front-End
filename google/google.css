@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.logoDiv{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.search{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+input{
+    margin-bottom: 4px;
+    width: 50%;
+    height: 20px;
+}
+.last{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+   
+    padding: 1em;
+    margin: 2px;
+}
+a{
+    display: block;
+}
+.parent{
+    display: flex;
+    width: 60%;
+    margin-top: 0;
+    margin: auto;
+}
