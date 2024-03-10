@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  #1F2544;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: xx-large;
+    float: left;
+    margin-right: 0.5rem;
+    
+}
+header i{
+    font-size: 1.5rem;
+    padding-top: 7px;
+}
+header i:hover{
+    opacity: 50%;
+    font-size: 1.25rem;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.giris {
+    padding:  0;
+    background-color: #f4f4f4;
+}
+
+.containergiris {
+    background-color:#FFD0EC;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 1.5rem;
+}
+.containergiris img{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.secondSection{
+    background-color: #81689D;
+    color: aliceblue;
+    text-align: center;
+}
+.okullarım{
+    display: flex;
+    text-align: center;
+    height: auto;
+    padding: 2rem;
+}
+.okul{
+    padding: 1rem;
+    background-color: #474F7A;
+    border: #f4f4f4 solid 3px;
+    border-radius: 6px;
+    margin-left: 6px;    
+}
+.hobiler{
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    align-items: end;
+    padding: 20px;
+}
+.hobi{
+    border: #f4f4f4 solid 3px;
+    border-radius: 6px;
+    padding: 30px;
+    margin-bottom: 6px; 
+
+}
+.lastSection{
+    background-color: #1F2544;
+    color: aliceblue;
+}
+h2{
+    text-align: center;
+    padding-top:2rem;
+}
+i:hover{
+    opacity: 50%;
+
+}
