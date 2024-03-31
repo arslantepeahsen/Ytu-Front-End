@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <form action="" class="form">
+        <div class="input-class">
+            <label class="title" for="name">Name</label>
+            <input type="text" id="name" name="name" class="input" placeholder="Type your name.." >
+        </div>
+        <div class="input-class">
+            <label class="title" for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" class="input" placeholder="(5xx)(123 45 67)" >
+        </div>
+        <div class="input-class">
+            <label class="title" for="email">E-Mail Adress</label>
+            <input type="email" id="email" name="email" class="input" placeholder="Type your e-mail address.." >
+        </div>
+    
+        <div class="input-class">
+            <label class="title" for="dogumyeri">Place of Birth</label>
+            <input type="text" id="dogumyeri" class="input" name="dogumyeri" placeholder="Type your birth place" >
+        </div>
+
+        <div class="input-class">
+            <label class="title" for="gender">Gender</label>
+
+            <input class="radio-label" type="radio" name="gender" value="female" id="female">
+            <label class="radio-label" for="fem">Female</label>
+    
+            <input type="radio" name="gender" value="male" id="male">
+            <label class="radio-label" for="male">Male</label>
+    
+        </div>
+        <div class="input-class">
+            <label class="title" for="city">City</label>
+            <select class="input" id="city" name="city">
+                <option selected disabled></option>
+                <option value="ankara">Ankara</option>
+                <option value="istanbul">İstanbul</option>
+            </select>
+        </div>
+        
+        <input type="submit" id="submit" name="submit" value="Submit">
+    
+    </form>
+</div>
+</body>
+</html>
